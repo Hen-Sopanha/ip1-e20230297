@@ -1,2 +1,8 @@
-# ip1-e20230297
-A full-stack helpdesk app where users report problems, agents resolve them, and admins track the workload. Vue 3, NestJS, PostgreSQL.
+# TicketDesk
+
+TicketDesk is a helpdesk ticket system. Users open support tickets, agents
+are assigned to them and reply in a comment thread, and admins manage agents,
+categories and a summary of tickets by status.
+
+Built for Internet Programming I (ITC, 2026-2027) with Vue 3 + TypeScript,
+NestJS and PostgreSQL with Prisma.
