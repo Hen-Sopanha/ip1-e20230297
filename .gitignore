@@ -69,6 +69,7 @@ web_modules/
 .env
 .env.*
 !.env.example
+!.env.*.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -147,3 +148,13 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# File uploads (Check 6 advanced feature)
+backend/uploads/
